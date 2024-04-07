@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root {
+    --bg-color:#265073;
+    --buttonColor:#9AD0C2;
+    --hover:#FFC374;
+    --box: #2D9596;
+    --inputButton:#F1FADA;
+
+}
+
+.wrapper {
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-color);
+}
+
+.box {
+    background-color: var(--box);
+    padding: 25px;
+    border-radius:10px;
+    border: 2px solid var(--box); 
+}
+
+input {
+    width: 300px;
+    font-size: 40px;
+    border-radius: 10px;
+    margin: 8px;
+    border:none;
+    text-align: right;
+    padding: 0 10px;
+    color: black;
+    font-weight: 400;
+    background-color: var(--inputButton);
+
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    background-color: var(--buttonColor);
+    border-radius:10px;
+    border: none;
+    margin: 8px;
+    font-size: 1.30rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#equalBtn {
+    background-color: #fb7c14;
+    font-weight: 600;
+}
+
+h1 {
+    color: #F1FADA;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding:10px;
+}
